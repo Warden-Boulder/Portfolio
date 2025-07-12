@@ -1,0 +1,86 @@
+body {
+  background-color: #28282b;
+}
+
+footer {
+  border-top: 1px solid gold;
+  color: gold;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+header {
+  border-bottom: 1px solid gold;
+  font-family: Gerogia, serif;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: crimson;
+  font-style: italic;
+  -webkit-text-stroke: 0.5px gold;
+  text-shadow: -0.5px -0.5px 0 gold,
+               0.5px -0.5px 0 gold,
+               -0.5px 0.5px 0 gold,
+               0.5px 0.5px 0 gold;
+}
+h3 {
+  color: gold;
+  font-style: italic;
+}
+
+nav {
+  border: 2px solid #2e2d88;
+  display: block;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.note {
+  color: crimson;
+  font-style: italic;
+  text-align: center;
+}
+.section-one {
+  color: silver;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.section-two {
+  color: purple;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+summary:has(.section-one) {
+  color: silver;
+}
+
+summary:has(.section-two) {
+  color: purple;
+}
+
+.display-one {
+  color: silver;
+}
+
+.display-two {
+  color: purple;
+}
