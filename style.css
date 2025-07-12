@@ -29,6 +29,7 @@ html {
 h1 {
   color: crimson;
   font-style: italic;
+  text-align: left;
   -webkit-text-stroke: 0.5px gold;
   text-shadow: -0.5px -0.5px 0 gold,
                0.5px -0.5px 0 gold,
@@ -41,13 +42,30 @@ h3 {
 }
 
 nav {
-  border: 2px solid #2e2d88;
   display: block;
   margin: auto;
   padding: 20px;
-  position: relative;
-  text-align: center;
+  text-align: left;
   width: fit-content;
+}
+.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+}
+
+.main-nav a {
+  color: gold;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+  color: #ffd700;
 }
 
 .note {
