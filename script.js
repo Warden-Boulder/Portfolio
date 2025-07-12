@@ -1,4 +1,3 @@
-
 function personal() {
   let personalSelect = document.querySelector('select[onchange="personal()"]');
   let personal = personalSelect.value;
