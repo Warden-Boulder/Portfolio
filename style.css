@@ -41,19 +41,13 @@ h3 {
   font-style: italic;
 }
 
-nav {
-  display: block;
-  margin: auto;
-  padding: 20px;
-  text-align: left;
-  width: fit-content;
-}
 .main-nav {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
   margin-top: 0.5rem;
   padding: 0.5rem;
+  border: none;
 }
 
 .main-nav a {
