@@ -84,3 +84,7 @@ summary:has(.section-two) {
 .display-two {
   color: purple;
 }
+
+.underline {
+  text-decoration: underline;
+}
