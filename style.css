@@ -2,6 +2,9 @@ body {
   background-color: #28282b;
 }
 
+.dropdown {
+  padding: 5px 10px;
+}
 footer {
   border-top: 1px solid gold;
   color: gold;
@@ -36,7 +39,7 @@ h1 {
                -0.5px 0.5px 0 gold,
                0.5px 0.5px 0 gold;
 }
-h3 {
+h4 {
   color: gold;
   font-style: italic;
 }
