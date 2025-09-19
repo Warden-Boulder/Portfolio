@@ -89,10 +89,46 @@ h4 {
 
 summary:has(.section-one) {
   color: silver;
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+}
+
+summary:has(.section-one)::-webkit-details-marker {
+  display: none;
+}
+
+summary:has(.section-one)::before {
+  content: '▶';
+  position: absolute;
+  left: -20px;
+  transition: transform 0.2s;
+}
+
+details[open] summary:has(.section-one)::before {
+  transform: rotate(90deg);
 }
 
 summary:has(.section-two) {
   color: purple;
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+}
+
+summary:has(.section-two)::-webkit-details-marker {
+  display: none;
+}
+
+summary:has(.section-two)::before {
+  content: '▶';
+  position: absolute;
+  left: -20px;
+  transition: transform 0.2s;
+}
+
+details[open] summary:has(.section-two)::before {
+  transform: rotate(90deg);
 }
 
 .display-one {
