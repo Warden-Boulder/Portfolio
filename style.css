@@ -1,17 +1,12 @@
+.amethyst{
+  color: #e6e3d9;
+}
 body {
-  background-color: #28282b;
+  background-color: #1b1f1d;
 }
 
 .dropdown {
   padding: 5px 10px;
-}
-footer {
-  border-top: 1px solid gold;
-  color: gold;
-  text-align: center;
-  margin-top: 20px;
-  padding: 10px;
-  font-size: 14px;
 }
 
 header {
@@ -21,51 +16,36 @@ header {
   font-weight: bold;
   margin-bottom: 15px;
   padding-bottom: 10px;
+  text-align: center;
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+}
+
+header a {
+  text-decoration: none;
+}
+header a:hover, a:hover {
+  color: #d8bc6a;
+}
 html {
   height: 100%;
   width: 100%;
 }
 
 h1 {
-  color: crimson;
+  color: #c2a14d;
   font-style: italic;
-  text-align: left;
-  -webkit-text-stroke: 0.5px gold;
-  text-shadow: -0.5px -0.5px 0 gold,
-               0.5px -0.5px 0 gold,
-               -0.5px 0.5px 0 gold,
-               0.5px 0.5px 0 gold;
+  text-align: center;
 }
+
 h4 {
   color: gold;
   font-style: italic;
-}
-
-.main-nav {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  margin-top: 0.5rem;
-  padding: 0.5rem;
-  border: none !important;
-  outline: none;
-}
-
-.main-nav a {
-  color: gold;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.1rem;
-  border: none !important;
-  outline: none;
-}
-
-.main-nav a:hover {
+  margin-bottom: -1px;
   text-decoration: underline;
-  color: #ffd700;
 }
 
 .note {
@@ -73,72 +53,51 @@ h4 {
   font-style: italic;
   text-align: center;
 }
-.section-one {
-  color: silver;
-  font-style: italic;
-  font-weight: bold;
+
+.personal {
+  color: #a8ada9;;
   text-decoration: underline;
 }
 
-.section-two {
-  color: purple;
-  font-style: italic;
-  font-weight: bold;
+.professional {
+  color: #5b3b8a;
   text-decoration: underline;
 }
 
-summary:has(.section-one) {
+select {
+  border-radius: 5px;
+}
+summary h2, summary h3 {
+  display: inline;
+  margin: 5px 5px 10px 5px;
+}
+.silverback {
+  color: #e6e3d9;
+}
+.tech {
   color: silver;
-  cursor: pointer;
-  list-style: none;
-  position: relative;
+  text-decoration: underline;
 }
-
-summary:has(.section-one)::-webkit-details-marker {
-  display: none;
+.tech2{
+  color: #e6e3d9;
+  text-decoration: underline;
 }
-
-summary:has(.section-one)::before {
-  content: '▶';
-  position: absolute;
-  left: -20px;
-  transition: transform 0.2s;
+.tech-li {
+  color: #e6e3d9;
+  margin-top: -1px;
 }
-
-details[open] summary:has(.section-one)::before {
-  transform: rotate(90deg);
+.tech-li2 {
+  color: #e6e3d9;
+  margin-top: -1px;
 }
-
-summary:has(.section-two) {
-  color: purple;
-  cursor: pointer;
-  list-style: none;
-  position: relative;
+.des {
+  color: #e6e3d9;
+  text-decoration: underline;
 }
-
-summary:has(.section-two)::-webkit-details-marker {
-  display: none;
+.des2 {
+  color: #e6e3d9;
+  text-decoration: underline;
 }
-
-summary:has(.section-two)::before {
-  content: '▶';
-  position: absolute;
-  left: -20px;
-  transition: transform 0.2s;
-}
-
-details[open] summary:has(.section-two)::before {
-  transform: rotate(90deg);
-}
-
-.display-one {
-  color: silver;
-}
-
-.display-two {
-  color: purple;
-}
-
 .underline {
   text-decoration: underline;
 }
