@@ -8,32 +8,38 @@
 <body>
   <header>
     <h1>Warden Boulder's Developer Portfolio</h1>
-    <nav class="main-nav">
-    <a href="translation.html">Warden Boulder's Translation Portfolio</a>
-  </nav>
+    <a href="translation.html">Translation Portfolio Page</a>
   </header>
-  <details>
-    <summary><h2 class="section-one">Personal Projects & Builds</h2></summary>
-    <h4 class="dropdown">Project/Build Select: <select onchange="personal()">
-      <option value="null">---Select---</option>
-      <option value="showcase">Project Showcase</option>
-      <option value="sites">Websites</option>
-      <option value="tools">Tools</option>
-      <option value="challenges">Coding Challenges</option>
-    </select>
-    </h4>
-    <p id="display-one"></p>
-  </details>
-  <br>
-  <details>
-    <summary><h2 class="section-two">Professional Projects & Builds</h2></summary>
-    <h4 class="dropdown">Project/Build Select: <select onchange="professional()">
-      <option value="null">---Select---</option>
-      <option value="aviation">Aviation</option>
-    </select>
-    </h4>
-    <p id="display-two"></p>
-  </details><br><br>
+   <details> 
+     <summary class="underline"> <h2 class="personal">Personal Projects & Builds</h2></summary>
+     <h4>Project/Build Select:</h4><select onchange="personal()" id="personal")>
+       <option value="null">---Select---</option>
+       <optgroup label="Project Showcase">
+         <option value="showcase">Vault Hunter's Toolbox</option>
+       </optgroup>
+       <optgroup label="Websites">
+         <option value="commission">Personal Commission</option>
+         <option value="portfolio">Personal Portfolio</option>
+       </optgroup>
+       <optgroup label="Tools">
+         <option value="convert">Unit Conversion</option>
+       </optgroup>
+       <optgroup label ="Miscellaneous">
+         <option value="challenge">Coding Challenges</option>
+       </optgroup>
+     </select>
+     <p id="personal-display"></p>
+   </details><br>
+   <details> 
+     <summary><h2 class="professional">Professional Projects & Builds</h2></summary>
+     <h4>Project/Build Select:</h4><select onchange="professional()" id="professional">
+       <option value="null">---Select---</option>
+       <optgroup label="Aviation">
+         <option value="aviation">Aviation Maintenance Toolbox</option>
+       </optgroup>
+     </select>
+     <p id="display-two"></p>
+   </details>
   <script src="script.js"></script>
 </body>
 </html>
