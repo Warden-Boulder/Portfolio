@@ -3,6 +3,7 @@
 }
 body {
   background-color: #1b1f1d;
+  font-family: "Segoe UI", Roboto, sans-serif;
 }
 
 .dropdown {
@@ -10,6 +11,7 @@ body {
 }
 
 header {
+  color: #c2a14d;
   border-bottom: 1px solid gold;
   font-family: Gerogia, serif;
   font-style: italic;
@@ -25,6 +27,7 @@ a {
 }
 
 header a {
+  color: #c2a14d;
   text-decoration: none;
 }
 header a:hover, a:hover {
@@ -64,6 +67,9 @@ h4 {
   text-decoration: underline;
 }
 
+section {
+  margin-bottom: 4rem;
+}
 select {
   border-radius: 5px;
 }
