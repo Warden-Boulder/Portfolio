@@ -47,7 +47,16 @@ function personal() {
     </ol>
     <p class="silverback"><strong class="des">Description:</strong><br>A conversion tool to help convert measurements between various unit categories that include units like length, mass, speed, and temperature.</p></em><br>
     <a href="https://warden-boulder.github.io/Converter/" target="_blank">Live Site</a>`;
-  } else if (personal === "challenge") {
+  } else if (personal === "pokemon") {
+    text = `<em><strong class="silverback">PokéToolbox</strong><br>
+    <strong class="tech">Tech Stack:</strong> 
+    <ol class="tech-li">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    </ol>
+    <p class="silverback"><strong class="des">Description:</strong><br>A browser-based web app that provides Pokémon players with tools, item lookups, and interactive features.</p></em><br>
+    <a href="https://warden-boulder.github.io/Poke-Toolbox/index.html">Live Site</a>`;} else if (personal === "challenge") {
     text = `<em><strong class="silverback">Various Challenges</strong><br>
     <strong class="tech">Tech Stack:</strong> 
     <ol class="tech-li">
