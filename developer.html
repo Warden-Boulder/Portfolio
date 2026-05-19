@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>Developer Projects</h1>
+    <a href="index.html">Home</a> | <a href="https://github.com/Warden-Boulder" target="_blank">
+  <i class="fa-brands fa-github"></i>
+</a> 
+  </header>
+   <details> 
+     <summary class="underline"> <h2 class="personal">Personal Projects & Builds</h2></summary>
+     <h4>Project/Build Select:</h4><select onchange="personal()" id="personal">
+       <option value="null">---Select---</option>
+       <optgroup label="Project Showcase">
+         <option value="showcase">Vault Hunter's Toolbox</option>
+       </optgroup>
+       <optgroup label="Websites">
+         <option value="commission">Personal Commission</option>
+         <option value="portfolio">Personal Portfolio</option>
+       </optgroup>
+       <optgroup label="Tools">
+         <option value="pokemon">PokéToolbox</option>
+         <option value="convert">Unit Conversion</option>
+       </optgroup>
+       <optgroup label ="Miscellaneous">
+         <option value="challenge">Coding Challenges</option>
+       </optgroup>
+     </select>
+     
+     <p id="personal-display"></p>
+   </details><br>
+   <details> 
+     <summary><h2 class="professional">Professional Projects & Builds</h2></summary>
+     <h4>Project/Build Select:</h4><select onchange="professional()" id="professional">
+       <option value="null">---Select---</option>
+       <optgroup label="Aviation">
+         <option value="aviation">Aviation Maintenance Toolbox</option>
+       </optgroup>
+     </select>
+     <p id="display-two"></p>
+   </details>
+  <script src="script.js"></script>
+</body>
+</html>
