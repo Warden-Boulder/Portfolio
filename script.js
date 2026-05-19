@@ -86,9 +86,9 @@ function professional() {
     <li>JavaScript</li>
     <li>Python</li>
     </ol>
-    <p class="amethyst"><strong class="des2">Description:</strong><br> Both a web tool and python based tool I developed, with the aid of coworkers to ensure accuracy, to aid myself and coworkers to help verify that the results of a horizontal freeplay check that is performed on both Boeing 737NG and 737 Max aircraft are within or out limits in accordance with all appropriate maintenance manuals and airworthiness directives (ADs).</p></em>
+    <p class="amethyst"><strong class="des2">Description:</strong><br> A application desingned to assist aircraft personnel in calculating and verifying the pass/fail criteria for various aircraft checks and toruqe calculations.</p></em>
     <a href="https://warden-boulder.github.io/Aviation-Maintenance-Toolbox/" target="_blank">Live Site</a><br>
-    <a href="https://github.com/Warden-Boulder/B737-Horizontal-Freeplay/tree/main">Python Code</a>`;
+    <a href="https://github.com/Warden-Boulder/B737-Horizontal-Freeplay" target="_blank">Python Code</a>`;
   }
   
   display.innerHTML = text;
