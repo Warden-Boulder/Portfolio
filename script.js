@@ -87,8 +87,7 @@ function professional() {
     <li>Python</li>
     </ol>
     <p class="amethyst"><strong class="des2">Description:</strong><br> A application desingned to assist aircraft personnel in calculating and verifying the pass/fail criteria for various aircraft checks and toruqe calculations.</p></em>
-    <a href="https://warden-boulder.github.io/Aviation-Maintenance-Toolbox/" target="_blank">Live Site</a><br>
-    <a href="https://github.com/Warden-Boulder/B737-Horizontal-Freeplay" target="_blank">Python Code</a>`;
+    <a href="https://warden-boulder.github.io/Aviation-Maintenance-Toolbox/" target="_blank">Live Site</a><br>;
   }
   
   display.innerHTML = text;
