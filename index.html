@@ -4,44 +4,50 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
   <header>
-    <h1>Warden Boulder - Developer Portfolio</h1>
-    <h2>Aspiring Full Stack Web Developer</h2>
-    <a href="translation.html">Translation Portfolio</a> | <a href="https://github.com/Warden-Boulder">GitHub</a>
+    <h1>Derek "Boulder" Stafford</h1>
+    <p class="tagline">Independent Web Developer</p>
+    <p>Location: Arizona, United States</p>
+    <a href="developer.html">Developer Projects</a> | <a href="https://github.com/Warden-Boulder" target="_blank">
+  <i class="fa-brands fa-github"></i>
+</a> 
   </header>
-   <details> 
-     <summary class="underline"> <h2 class="personal">Personal Projects & Builds</h2></summary>
-     <h4>Project/Build Select:</h4><select onchange="personal()" id="personal">
-       <option value="null">---Select---</option>
-       <optgroup label="Project Showcase">
-         <option value="showcase">Vault Hunter's Toolbox</option>
-       </optgroup>
-       <optgroup label="Websites">
-         <option value="commission">Personal Commission</option>
-         <option value="portfolio">Personal Portfolio</option>
-       </optgroup>
-       <optgroup label="Tools">
-         <option value="pokemon">PokéToolbox</option>
-         <option value="convert">Unit Conversion</option>
-       </optgroup>
-       <optgroup label ="Miscellaneous">
-         <option value="challenge">Coding Challenges</option>
-       </optgroup>
-     </select>
-     <p id="personal-display"></p>
-   </details><br>
-   <details> 
-     <summary><h2 class="professional">Professional Projects & Builds</h2></summary>
-     <h4>Project/Build Select:</h4><select onchange="professional()" id="professional">
-       <option value="null">---Select---</option>
-       <optgroup label="Aviation">
-         <option value="aviation">Aviation Maintenance Toolbox</option>
-       </optgroup>
-     </select>
-     <p id="display-two"></p>
-   </details>
-  <script src="script.js"></script>
+  <h2>Experience</h2>
+  <p>Independent Web Developer</p>
+  <p style="font-size: 12px;">Oct 2025 - Present</p>
+  <ul>
+    <li>Design and maintain web-based tools and applications for both general and profssional use.</li>
+  </ul><br>
+  <h2>Developer Proficiencies</h2>
+  <ul>
+    <li>HTML - Intermediate</li>
+    <li>CSS - Intermediate</li>
+    <li>Python - Intermediate</li>
+    <li>JavaScript - Beginner</li>
+  </ul><br>
+  <h2>Language Proficincies</h2>
+  <ul>
+    <li>English - Native</li>
+    <li>French - Intermediate</li>
+    <li>Spanish - Beginner</li>
+    <li>German - Beginner</li>
+    <li>Japanese - Beginner</li>
+  </ul><br>
+  <h2>Featured Projects</h2>
+  <div class="featured-card">
+    <div class="featured">
+      <h3>Aviation Maintenance Toolbox</h3>
+      <em><p>A application desingned to assist aircraft personnel in calculating and verifying the pass/fail criteria for various aircraft checks and toruqe calculations.</p></em>
+       <a href="https://warden-boulder.github.io/Aviation-Maintenance-Toolbox/" target="_blank">Live Site</a><br>
+    <a href="https://github.com/Warden-Boulder/B737-Horizontal-Freeplay" target="_blank">Python Code</a>
+    </div>
+     <div class="featured">
+      <h3>Vault Hunter's Toolbox</h3>
+      <em><p>A web tool to assist any borderlands player in calculating the total time their action skill will be in cooldown for as well as be able to calculate the total time it'll take their shields or health to reach 100% capacity.</p></em>
+       <a href="https://warden-boulder.github.io/Borderlands-2-Cooldown-Website/" target="_blank">Live Site</a><br>
+  </div>
 </body>
 </html>
