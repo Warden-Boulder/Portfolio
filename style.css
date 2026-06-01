@@ -5,6 +5,7 @@ body {
   background-color: #1b1f1d;
   color: gold;
   font-family: "Segoe UI", Roboto, sans-serif;
+  font-style: italic;
 }
 
 .dropdown {
@@ -154,4 +155,8 @@ p, ul {
 
 select {
   margin-bottom: 15px;
+}
+
+.language, .dev, .feat {
+  margin-top: -10px;
 }
